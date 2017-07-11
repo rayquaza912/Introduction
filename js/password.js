@@ -1,5 +1,5 @@
 #Script demandant un mot de passe.
-#Bloque l'utilisateur au bout de 3 tentatives.
+#Bloque l utilisateur au bout de 3 tentatives.
 
 var passcounter = Number(0);
 do { 
