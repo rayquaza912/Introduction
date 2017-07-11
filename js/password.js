@@ -4,7 +4,7 @@
 var passcounter = Number(0);
 do { 
 	var password = prompt("Entrez le mot de passe :"); 
-	passcounter = passcounter + 1;
+	passcounter += 1;
 } 
 while (password != "superpass123");
 if (passcounter > 3)
