@@ -15,7 +15,7 @@ C'est pourquoi on a décidé d'utiliser des "données personnelles" de l'ordinat
 Voir la doc [ici](https://fr.wikipedia.org/wiki/Propri%C3%A9t%C3%A9s_ACID)
 
 > En informatique, les propriétés ACID (atomicité, cohérence, isolation et durabilité) sont un ensemble de propriétés qui garantissent qu'une transaction informatique est exécutée de façon fiable.
-	*Source : Wikipédia
+*Source : Wikipédia*
 
 Les propriétés ACID doivent absolument être respectées dans le domaine des bases de données.
 Même si l'on touche à plusieurs données différentes, on appelera chaque "action" une *transaction*.
