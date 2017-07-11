@@ -1,5 +1,5 @@
 #Test non abouti
-#Script demandant un mot de passe et bloquant l'utilisateur au bout de 3 tentatives.
+#Script demandant un mot de passe et bloquant l utilisateur au bout de 3 tentatives.
 
 var passcounter = 0, tempPassword = "superpass123";
 do { 
