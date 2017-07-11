@@ -6,5 +6,8 @@ do {
 	var password = prompt("Entrez le mot de passe :"); 
 	passcounter = passcounter + 1;
 } 
-while (password != "superpass123" || passcounter > 3);
-console.log("Accès autorisé.", passcounter);
+while (password != "superpass123");
+if (passcounter > 3)
+	console.log("Accès bloqué, veuillez réessayer plus tard");
+else
+	console.log("Accès autorisé.");
