@@ -14,7 +14,7 @@ else
 while (Password != tempPassword); console.log("Accès autorisé.");
 
 
-#2e
+# Autre tentative
 var tryPassword = prompt("Entrez votre mot de passe :"), tempPassword = "superpass123", passcounter = Number(0);
 do {
 	if (passcounter = 3)
