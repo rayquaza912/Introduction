@@ -4,14 +4,14 @@ Ce post contient un résumé de mes lectures portant sur :
 - L'*UUID* pour "Universal Unique Identifier"
 - Les propriétés *ACID* pour "atomicité, cohérence, isolation et durabilité"
 
-** Universal Unique Identifier (UUID)
+## Universal Unique Identifier (UUID)
 Voir la doc [ici](https://fr.wikipedia.org/wiki/Universal_Unique_Identifier)
 
 Il s'agit comme son nom l'indique d'un identifiant unique permettant à des systèmes de reconnaître un élément parmis des millions d'autres. (Théoriquement dans le monde entier)
 Cependant, on preferera en pratique employer le terme unicité *très probable* plutôt que garantie. Les UUID étant générés par des algorithmes **pseudo-aléatoire**, il n'est pas impossible qu'à grande échelle deux UUID identiques co-existent.
 C'est pourquoi on a décidé d'utiliser des "données personnelles" de l'ordinateur comme l'adresse MAC afin de garantir son unicité. Mais, dans un soucis de sécurité, on préfère les hasher pour ne pas divulguer d'informations sensibles, à l'aide du MD5 ou du SHA-1 par exemple.
 
-** Propriétés ACID 
+## Propriétés ACID 
 Voir la doc [ici](https://fr.wikipedia.org/wiki/Propri%C3%A9t%C3%A9s_ACID)
 
 > En informatique, les propriétés ACID (atomicité, cohérence, isolation et durabilité) sont un ensemble de propriétés qui garantissent qu'une transaction informatique est exécutée de façon fiable.
