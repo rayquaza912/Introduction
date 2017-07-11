@@ -1,4 +1,4 @@
-# Script obligeant l'utilisateur à entrer son nom
+# Script obligeant l utilisateur à entrer son nom
 do { 
 var yourName = prompt("Qui est tu ?"); 
 } 
