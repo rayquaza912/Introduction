@@ -24,7 +24,7 @@ Par exemple, un transfert de fonds d'un compte de banque à un autre, même s'il
 On peut résumer ces 4 propriétés à l'aide d'un tableau :
 
 Propriétés | Définition
-------|------
+-|-
 Atomicité | C'est le fait de s'assurer qu'une transaction est efféctuée dans son intégralité. Dans le cas contraire, il faut restaurer les données au stade antérieur à la transaction.
 Cohérence | Il s'agit de **s'assurer** que chaque transaction passe d'un état valide à un autre état valide. Par exemple, respecter les *contraintes d'intégrité*, les *rollbacks en cascade* ou les *déclencheurs* de base de données.
 Isolation | Cette propriété vérifie le fait que chaque transaction est indépendante l'une de l'autre. Elles doivent donc s'executer en isolation totale, si deux transaction s'executent en même temps, elles ne doivent pas avoir de dépendances entre elles.
